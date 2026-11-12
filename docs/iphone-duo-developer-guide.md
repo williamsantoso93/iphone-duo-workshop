@@ -604,7 +604,6 @@ Names above follow the API reference. Some were checked against the local iOS 27
 
 ## Sources
 
-- [iPhone Duo API & SDK Reference](https://claude.ai/artifact/AsmYmr9XbQpY6HsRr7qSyT) (source doc)
 - iPhone Duo tech talk notes: `docs/iphone-duo-tech-talks-notes.md` in the Duo Test repo
 - [Prepare your app for iPhone Duo](https://developer.apple.com/videos/play/tech-talks/111461/)
 - [Raise the bar with iPhone Duo](https://developer.apple.com/videos/play/tech-talks/111462/)
