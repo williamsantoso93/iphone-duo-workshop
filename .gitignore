@@ -1,2 +1,7 @@
 *.mp4
 *.key
+.claude
+
+# Xcode user state
+xcuserdata/
+.DS_Store
