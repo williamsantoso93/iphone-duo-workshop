@@ -47,27 +47,9 @@ struct ContentView: View {
                 ContentUnavailableView("Collections", systemImage: "square.grid.2x2")
             }
 
-            Tab("Add", systemImage: "plus", role: .prominent) {
-                ContentUnavailableView("Add", systemImage: "plus")
+            Tab("Nearby", systemImage: "location.fill", role: .prominent) {
+                ContentUnavailableView("Nearby", systemImage: "location.fill")
             }
-        }
-    }
-}
-
-/// Sample use of `toolbarVerticalEdge`: a custom toolbar label that adapts to the bar's axis.
-private struct MapToolbarLabel: View {
-    /// `nil` while the bar is horizontal; `.leading` or `.trailing` while it is vertical.
-    @Environment(\.toolbarVerticalEdge) private var toolbarVerticalEdge
-
-    var body: some View {
-        if toolbarVerticalEdge == nil {
-            // Horizontal bar: room for icon and title.
-            Label("Map", systemImage: "map")
-                .labelStyle(.titleAndIcon)
-        } else {
-            // Vertical bar: fixed narrow width, icon only.
-            Label("Map", systemImage: "map")
-                .labelStyle(.iconOnly)
         }
     }
 }
